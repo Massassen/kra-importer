@@ -52,7 +52,7 @@ func _get_option_visibility(path: String, option_name: StringName, options: Dict
 	return true
 
 func _import(source_file: String, save_path: String, options: Dictionary, 
-			 platform_variants: Array[String], gen_files: Array[String]) -> Error:
+	platform_variants: Array[String], gen_files: Array[String]) -> Error:
 	
 	# KRA files are just ZIP archives with a mergedimage.png inside
 	var image := _extract_merged_image_from_kra(source_file)

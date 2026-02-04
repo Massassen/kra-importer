@@ -1,2 +1,4 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Plugin export
+/** export-ignore
+/addons !export-ignore
+/addons/** !export-ignore

@@ -6,12 +6,11 @@ test
 Thumbs.db
 
 # Godot 4+ specific ignores
-.godot/
 .nomedia
 
 # Godot-specific ignores
 .editorconfig
-project.godot
+*.godot
 *.import
 *.uid
 .import/
